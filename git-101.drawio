@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T00:19:39.777Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="20.8.3" etag="1X1gJhGHZhPBRm2KQxOf" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-19T01:54:37.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="20.8.3" etag="Lj2V77wKNDHt2lbs49qK" type="github">
   <diagram id="LW6eN7gcST44H_9hZHNd" name="페이지-1">
     <mxGraphModel dx="1077" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,14 +10,32 @@
         <mxCell id="CBzlRyMOdRMsH1H1v6JQ-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="40" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CBzlRyMOdRMsH1H1v6JQ-5" value="1. 파일 1, 2, 3 을 생성하여 &quot;꾸러미1&quot; 에 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="160" width="140" height="40" as="geometry" />
+        <mxCell id="CBzlRyMOdRMsH1H1v6JQ-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBzlRyMOdRMsH1H1v6JQ-5" target="CBzlRyMOdRMsH1H1v6JQ-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CBzlRyMOdRMsH1H1v6JQ-6" value="1. 파일 1, 2, 3 을 생성하여 &quot;꾸러미1&quot; 에 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="230" width="140" height="40" as="geometry" />
+        <mxCell id="CBzlRyMOdRMsH1H1v6JQ-5" value="1. 파일 1, 2, 3 을 생성하여 &quot;사과 1&quot; 버전에 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CBzlRyMOdRMsH1H1v6JQ-7" value="2. &quot;꾸러미1&quot; 에 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="160" width="140" height="40" as="geometry" />
+        <mxCell id="CBzlRyMOdRMsH1H1v6JQ-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBzlRyMOdRMsH1H1v6JQ-6" target="CBzlRyMOdRMsH1H1v6JQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBzlRyMOdRMsH1H1v6JQ-6" value="3. 파일 2 수정 후 &quot;사과2&quot; 버전에 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="260" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CBzlRyMOdRMsH1H1v6JQ-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="CBzlRyMOdRMsH1H1v6JQ-7" target="CBzlRyMOdRMsH1H1v6JQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CBzlRyMOdRMsH1H1v6JQ-7" value="2. &quot;사과 1&quot; 을 받아서 페이지 4, 5 번 추가후 &quot;수박 1&quot; 버전에 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CBzlRyMOdRMsH1H1v6JQ-8" value="4. &quot;사과 2&quot; 와 &quot;수박 1&quot; 비교하여 변경 내역 확인 후 &quot;수박2&quot; 버전에 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CBzlRyMOdRMsH1H1v6JQ-9" value="&quot;사과 2&quot; 에는 파일 1, 2(수정본), 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="390" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CBzlRyMOdRMsH1H1v6JQ-10" value="&quot;수박 2&quot; 에는 파일 1, 2(수정본), 3, 4, 5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
